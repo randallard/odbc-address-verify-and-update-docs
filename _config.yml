@@ -1,0 +1,15 @@
+theme: jekyll-theme-minimal
+title: Your App Name
+description: Documentation for Your App
+show_downloads: false
+google_analytics:
+github:
+  is_project_page: true
+  repository_url: https://github.com/your-username/your-app-name
+
+# Navigation
+nav:
+  - Home: "index.md"
+  - User Guide: "user-guide/index.md"
+  - API Reference: "api-reference/index.md"
+  - Contributing: "contributing.md"
