@@ -1,7 +1,7 @@
 <nav>
     <ul>
-      {% for item in site.nav %}
-        <li><a href="{{ item[1] }}">{{ item[0] }}</a></li>
-      {% endfor %}
+        {% for item in site.nav %}
+        <li>[{{ item.name }}]({{ site.baseurl }}{{ item.link }})</li>
+        {% endfor %}
     </ul>
   </nav>
