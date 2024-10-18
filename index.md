@@ -1,3 +1,11 @@
-# Address Verify and Update 
+# Documentation for the Address Verify and Update Program
 
-documentation is in progress
+## Navigation
+
+{% for item in site.nav %}
+- [{{ item[0] }}]({{ item[1] }})
+{% endfor %}
+
+## Introduction
+
+This application assists in collecting client addresses from the database, saving them to a csv file for processing with a service, such as PeachTree, then using the files returned but the service to update the database.

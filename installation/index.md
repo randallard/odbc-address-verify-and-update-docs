@@ -1,4 +1,4 @@
 {% include navigation.html %}
 
-# User Guide
+# Installation instructions
 (Page content)

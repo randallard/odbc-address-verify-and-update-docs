@@ -7,10 +7,10 @@ show_downloads: false
 
 # Navigation
 nav:
-  - Home: "index.md"
-  - User Guide: "user-guide/index.md"
-  - API Reference: "api-reference/index.md"
-  - Contributing: "contributing.md"
+  - Home: "/"
+  - Development Guide: "/development-guide/"
+  - Installation: "/installation/"
+  - User Guide: "/user-guide/"
 
 # Optional: You can add custom CSS for further dark mode adjustments
 # custom_css: custom.css
