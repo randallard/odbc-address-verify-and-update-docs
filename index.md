@@ -7,11 +7,9 @@ title: Welcome to the Claude Project Documentation
 
 ## Navigation
 
-{% raw %}
 {% for item in site.nav %}
 - [{{ item.name }}]({{ item.link }})
 {% endfor %}
-{% endraw %}
 
 ## Introduction
 
