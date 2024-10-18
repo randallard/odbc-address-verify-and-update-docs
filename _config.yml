@@ -1,11 +1,9 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: Your App Name
 description: Documentation for Your App
 show_downloads: false
-google_analytics:
-github:
-  is_project_page: true
-  repository_url: https://github.com/your-username/your-app-name
 
 # Navigation
 nav:
@@ -13,3 +11,6 @@ nav:
   - User Guide: "user-guide/index.md"
   - API Reference: "api-reference/index.md"
   - Contributing: "contributing.md"
+
+# Optional: You can add custom CSS for further dark mode adjustments
+# custom_css: custom.css

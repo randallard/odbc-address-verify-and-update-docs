@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Add any custom styles here */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1c1c1c;
+    color: #e6e6e6;
+  }
+  
+  a {
+    color: #58a6ff;
+  }
+  
+  /* Add more custom dark mode styles as needed */
+}
