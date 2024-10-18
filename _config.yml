@@ -11,6 +11,9 @@ nav:
     link: "/"
   - name: "Development Guide"
     link: "/development-guide/"
+    subnav:
+      - name: "Security Scanning"
+        link: "/development-guide/security-scanning/"
   - name: "Installation"
     link: "/installation/"
   - name: "User Guide"
