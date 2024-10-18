@@ -1,10 +1,17 @@
+---
+layout: default
+title: Welcome to the Claude Project Documentation
+---
+
 # Documentation for the Address Verify and Update Program
 
 ## Navigation
 
+{% raw %}
 {% for item in site.nav %}
 - [{{ item[0] }}]({{ item[1] }})
 {% endfor %}
+{% endraw %}
 
 ## Introduction
 
