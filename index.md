@@ -9,7 +9,7 @@ title: Welcome to the Claude Project Documentation
 
 {% raw %}
 {% for item in site.nav %}
-- [{{ item[0] }}]({{ item[1] }})
+- [{{ item.name }}]({{ item.link }})
 {% endfor %}
 {% endraw %}
 
