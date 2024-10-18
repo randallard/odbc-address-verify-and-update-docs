@@ -15,4 +15,4 @@ title: Welcome to the Claude Project Documentation
 
 ## Introduction
 
-This application assists in collecting client addresses from the database, saving them to a csv file for processing with a service, such as PeachTree, then using the files returned but the service to update the database.
+This application assists in collecting client addresses from the database, saving them to a csv file for processing with a service, such as PeachtreeData, then using the files returned by the service to update the database.
