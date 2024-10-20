@@ -21,7 +21,11 @@ Add the following line to create an alias:
 New-Alias -Name avu -Value "path\to\your\program.exe"
 ```
 
-Replace "path\to\your\program.exe" with the actual path to your compiled Rust program.
+Replace "path\to\your\program.exe" with the actual path to your compiled Rust program, during development, this was 
+
+```powershell
+New-Alias -Name avu -Value "C:\Users\ryankhetlyr\RustroverProjects\odbc-address-verify-and-update\target\debug\odbc-address-verify-and-update.exe"
+```
 
 ### For Linux:
 
