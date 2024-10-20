@@ -42,6 +42,7 @@ When The application starts, it will display the state of the last session that 
 ### Application steps
 
 This application is set to perform the following steps:
+0. Preliminary Estimation: Get a count of records for estimation purposes [more detail on this step](#0-preliminary-estimation)
 1. Create an initial records file and display the number of records in that file [more detail on this step](#1-creating-the-initial-upload-file)
 2. Results summary can be generated after you receive your results [more detail on this step](#2-generating-the-results-summary)
 3. Generate queries for updating the database [more detail on this step](#3-generating-the-queries)
@@ -50,6 +51,30 @@ This application is set to perform the following steps:
 6. Retry any failed queries due to record locks [more detail on this step](#6-retrying-failed-queries)
 7. Review the results of the query execution [more detail on this step](#7-reviewing-query-results)
 8. Review results from other working sessions [more detail on this step](#8-reviewing-results-of-other-working-sessions)
+
+### 0. Preliminary Estimation
+
+This step can be run with 'avu estimate` (see terminal setup)
+
+Configuration variables
+
+- DATABASE_CONNECTION_STRING
+- ESTIMATION_QUERY
+
+This preliminary step allows users to quickly get an estimate of the number of records that will need verification without starting a full session or gathering actual data.
+
+DATABASE_CONNECTION_STRING - The application will use this to connect to the database
+
+ESTIMATION_QUERY - The application will use this query to get a count of records that would be selected for verification
+
+The application will:
+
+Connect to the database using the DATABASE_CONNECTION_STRING
+Run the ESTIMATION_QUERY to get a count of records
+Display the count to the user
+Allow the user to decide whether to proceed with the full verification process
+
+This step does not create any files or start a working session.
 
 ### 1. Creating the initial upload file
 

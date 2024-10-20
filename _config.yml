@@ -16,6 +16,9 @@ nav:
         link: "/development-guide/security-scanning.md"
   - name: "Installation"
     link: "/installation/"
+    subnav:
+      - name: "Terminal Setup"
+        link: "/installation/terminal-setup.md"
   - name: "User Guide"
     link: "/user-guide/"
 
