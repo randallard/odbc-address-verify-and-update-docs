@@ -5,4 +5,5 @@
 
 ## Table of Contents
 
-- [Security Scanning](./security-scanning/)
+- [Database Updates](./database-updates.md)
+- [Security Scanning](./security-scanning.md)

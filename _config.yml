@@ -13,7 +13,7 @@ nav:
     link: "/development-guide/"
     subnav:
       - name: "Security Scanning"
-        link: "/development-guide/security-scanning/"
+        link: "/development-guide/security-scanning.md"
   - name: "Installation"
     link: "/installation/"
   - name: "User Guide"
